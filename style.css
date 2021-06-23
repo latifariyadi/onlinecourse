@@ -145,6 +145,86 @@ header .navbar a:hover {
   background: var(--gradient);
 }
 
+.course {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.heading {
+  color: transparent;
+  background: var(--text-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  padding: 0 1rem;
+  padding-top: 2.5rem;
+  text-align: center;
+  font-size: 4rem;
+}
+
+.course .box {
+  flex: 1 1 30rem;
+  border-radius: 2rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.2);
+  padding: 2rem;
+  height: auto;
+  background: #fff;
+  position: relative;
+}
+
+.course .box img {
+  height: 20rem;
+  width: 100%;
+}
+
+.course .box .amount {
+  position: absolute;
+  top: 1rem;
+  left: 2rem;
+  background: var(--blue);
+  padding: 0.5rem 1.5rem;
+  color: #fff;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.course .box .stars i {
+  color: var(--red);
+  font-size: 1.5rem;
+  padding: 1rem 0;
+}
+
+.course .box h3 {
+  color: var(--blue);
+  font-size: 2.5rem;
+}
+
+.course .box p {
+  color: #666;
+  font-size: 1.5rem;
+  padding: 0.5rem 0;
+}
+
+.course .icons {
+  display: flex;
+  justify-content: space-between;
+  border-top: 0.1rem solid rgba(0, 0, 0, 0.2);
+  padding: 0.5rem;
+  padding-top: 1rem;
+  margin-top: 1rem;
+}
+
+.course .icons p {
+  color: #333;
+  font-size: 1.3rem;
+}
+
+.course .icons i {
+  padding-right: 0.5rem;
+  color: var(--blue);
+  font-size: 2rem;
+}
+
 .footer .box-container {
   display: flex;
   flex-wrap: wrap;
