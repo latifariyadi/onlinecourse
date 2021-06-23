@@ -242,6 +242,10 @@ header .navbar a:hover {
   header .navbar.active {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
+
+  .home .content h3 {
+    padding-top: 5rem;
+  }
 }
 
 @media (max-width: 991px) {
