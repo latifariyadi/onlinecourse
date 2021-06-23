@@ -1,9 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap");
 
 :root {
-  --violet: #000000;
-  --pink: #166d3b;
-  --gradient: linear-gradient(90deg, var(--violet), var(--pink));
+  --black: #000000;
+  --blue: #130f40;
+  --red: #c31432;
+  --gradient: linear-gradient(90deg, var(--black), var(--blue));
+  --text-gradient: linear-gradient(90deg, var(--blue), var(--red));
 }
 
 html {
@@ -43,7 +45,7 @@ body {
 }
 
 .container {
-  background: rgba(222, 222, 222, 0.7);
+  background: rgba(222, 222, 222, 0.9);
   border-radius: 0.5rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
   border: 1px solid rgba(222, 222, 222, 0.9);
@@ -66,12 +68,12 @@ header {
 
 header .logo {
   font-size: 2.5rem;
-  color: var(--violet);
-  font-weight: 600;
+  color: var(--blue);
+  font-weight: 800;
 }
 
 header .logo span {
-  color: var(--pink);
+  color: var(--red);
 }
 
 header .navbar a {
@@ -81,7 +83,7 @@ header .navbar a {
 }
 
 header .navbar a:hover {
-  color: var(--pink);
+  color: var(--red);
 }
 
 #menu {
@@ -115,7 +117,8 @@ header .navbar a:hover {
 .home .content h3 {
   font-size: 4rem;
   color: transparent;
-  background: var(--gradient);
+  font-weight: 800;
+  background: var(--text-gradient);
   -webkit-background-clip: text;
   background-clip: text;
 }
@@ -123,7 +126,7 @@ header .navbar a:hover {
 .home .content p {
   padding: 0.5rem 0;
   font-size: 1.5rem;
-  color: #666;
+  color: #111;
 }
 
 .btn {
@@ -131,7 +134,7 @@ header .navbar a:hover {
   margin-top: 1rem;
   padding: 1.2rem 3rem;
   border-radius: 2rem;
-  background: var(--gradient);
+  background: var(--text-gradient);
   color: #fff;
   cursor: pointer;
   font-size: 1.5rem;
@@ -139,7 +142,7 @@ header .navbar a:hover {
 }
 
 .btn:hover {
-  transform: scale(1.05);
+  background: var(--gradient);
 }
 
 .footer .box-container {
@@ -154,7 +157,7 @@ header .navbar a:hover {
 
 .footer h3 {
   font-size: 2rem;
-  color: var(--violet);
+  color: var(--blue);
   padding: 0.7rem 0;
 }
 
@@ -177,7 +180,7 @@ header .navbar a:hover {
 
 .footer p i {
   margin-right: 0.5rem;
-  color: var(--pink);
+  color: var(--blue);
 }
 
 .footer .credit {
@@ -191,7 +194,7 @@ header .navbar a:hover {
 }
 
 .footer .credit span {
-  color: var(--pink);
+  color: var(--red);
 }
 
 /* resposive */
