@@ -333,3 +333,99 @@ header .navbar a:hover {
     font-size: 50%;
   }
 }
+
+.teacher {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.teacher .box {
+  flex: 1 1 23rem;
+  background: #fff;
+  border-radius: 0.5rem;
+  text-align: center;
+  padding: 2rem 1.5rem;
+}
+
+.teacher .box img {
+  height: 10rem;
+  width: 10rem;
+  margin: 2rem 0;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.teacher .box h3 {
+  color: var(--blue);
+  font-size: 2.5rem;
+}
+
+.teacher .box span {
+  color: var(--red);
+  font-size: 1.5rem;
+}
+
+.teacher .box p {
+  color: #666;
+  font-size: 1.5rem;
+  padding: 1rem 0;
+}
+
+.teacher .box .share a {
+  height: 4rem;
+  width: 4rem;
+  line-height: 4rem;
+  font-size: 2rem;
+  background: var(--blue);
+  color: var(--red);
+  border-radius: 50%;
+  margin: 0.3rem;
+}
+
+.price {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.price .box {
+  flex: 1 1 30rem;
+  background: #fff;
+  text-align: center;
+  border-radius: .5rem;
+}
+
+.price .box h3 {
+  font-size: 2.5rem;
+  color: var(--blue);
+  padding: 1.5rem 0;
+}
+
+.price .box .amount {
+  font-size: 4.5rem;
+  color: #fff;
+  padding: 1rem 0;
+  background: var(--text-gradient);
+}
+
+.price .box .amount span {
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.price .box ul {
+  border-bottom: 0.1rem solid rgba(0, 0, 0, 0.4);
+  padding: 1rem 0;
+  list-style: none;
+}
+
+.price .box ul li {
+  padding: 0.7rem 0;
+  font-size: 1.7rem;
+  color: #666;
+}
+
+.price .box .btn {
+  margin: 2rem;
+}
